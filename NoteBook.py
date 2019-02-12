@@ -1,4 +1,3 @@
-import datetime
 import sys
 
 l_id = 1
@@ -8,7 +7,6 @@ class Note:
     def __init__(self, memo, tag=""):
         self.memo = memo
         self.tag = tag
-        self.date = datetime.date.today()
         global l_id
         self.id = l_id
         l_id += 1
